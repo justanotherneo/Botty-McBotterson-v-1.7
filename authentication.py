@@ -6,7 +6,7 @@ import json
 # Prompt user for the path to their credentials JSON file
 def get_credentials_path():
     CLIENT_SECRET_FILE = input('Please enter the path to your Google API client secret JSON file (e.g., 
-"client_secret.json"): ')
+"client_secret.json"\): ')
     return CLIENT_SECRET_FILE
 
 # Retrieve credentials from user-provided JSON file
